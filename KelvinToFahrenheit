@@ -1,0 +1,9 @@
+const kelvin = 293;
+//The above line is a constant variable that keeps kelvin variable at 293.
+const celsius = kelvin - 273;
+// Kelvin is converted into Celsius by subtracting the amount of Kelvins by 273.
+let fahrenheit = celsius * (9 / 5) + 32;
+//The above line converts Celsius into Fahrenheit.
+fahrenheit = Math.floor(fahrenheit)
+// The above line reassigns the farhenheit variable to round down the decimal using the Math object and .floor() Method.
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
